@@ -9,3 +9,4 @@ A Scholarship Portal, where
 ## Requirements
 
 - Xampp
+- Browser

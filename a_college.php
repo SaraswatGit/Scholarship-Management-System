@@ -122,6 +122,7 @@ SOFTWARE.
 			<input type="text" name="c_name" value="<?php echo htmlspecialchars($c_name); ?>">
 			<div class="red-text"><?php echo $errors['c_name']; ?></div>
 
+			
 			<div class="center">
 				<input type="submit" name="add" value="Add" class="btn brand z-depth-0">
 				<input type="submit" name="delete" value="Delete" class="btn brand z-depth-0">
