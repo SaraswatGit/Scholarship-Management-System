@@ -44,7 +44,7 @@ $app=0;
 
 	<div class="container center">
 		<?php if($app): ?>
-			<h4>Application ID&#58;<?php echo $app['app_id']; ?></h4>
+			<h4>Application ID&#58;<?php echo $app['app_id'];  ?></h4>
 			<p>Name&#58; <?php echo $app['s_name']; ?></p>
 			<p>College Code&#58; <?php echo $app['c_code']; ?></p>
 			<p>Aadhar&#58; <?php echo $app['aadhar']; ?></p>

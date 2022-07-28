@@ -14,7 +14,7 @@
   	form{
   		max-width: 460px;
   		margin: 20px auto;
-  		padding: 20px;
+  		padding: 20px ;
   	}
   </style>
 </head>

@@ -129,6 +129,9 @@ CREATE TABLE `college` (
   `c_password` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`c_code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO `college` VALUES ('bietdvg123','Bapuji Institute of Engineering and Technology','bietPass'),('jgidvg1234','Jain Group of Institute','jgiPass'),('sit022','Sohan Institue of Technology','sonyPass');
+
 -- --------------------------------------------------------
 CREATE TABLE `student` (
   `app_id` varchar(10) NOT NULL,

@@ -7,7 +7,7 @@
 $app=0;
     if ($result1) {
         if (mysqli_num_rows($result1) > 0) {
-            $app = mysqli_fetch_assoc($result1);
+            $app = mysqli_fetch_assoc($result1) ;
 
          // echo 'found!';
         } else {

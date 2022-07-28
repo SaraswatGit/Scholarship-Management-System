@@ -80,7 +80,7 @@ SOFTWARE.
 
 	<?php include('templates/a_header.php'); ?>
 
-	<div class="container center white">
+	<div class="container center white" >
 		<?php if($app): ?>
 			<h4>Application ID&#58;<?php echo $app['app_id']; ?></h4>
 			<p>Name&#58; <?php echo $app['s_name']; ?></p>

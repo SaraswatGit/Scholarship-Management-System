@@ -89,7 +89,7 @@ SOFTWARE.
 			<p>USN&#58; <?php echo $app['reg_no']; ?></p>
 			<p>Previous Year &#37;&#58; <?php echo $app['prev_year_perc']; ?></p>
 			<h5>Status&#58; <?php echo $app['status']; ?></h5>
-			<a href="a_app.php" class="btn brand z-depth-0">GO BACK</a>
+			<a href="a_app.php" class="btn brand z-depth-0">GO BACK </a>
 
 		<?php else: ?>
 			<h5>No such student exists.</h5>

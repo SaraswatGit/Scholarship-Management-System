@@ -34,7 +34,7 @@ SOFTWARE.
 			<li>College: Verifes or Declines the application.</li>
 			<li>Admin: Approves/Sanctions the scholarship.</li>
 		</ul>
-		<p>THIS IS JUST A PROTOTYPE.</p>
+		<p>THIS IS JUST A PROTOTYPE. </p>
 	</div>
 	<div class="container center grey-text">
 	</div>
