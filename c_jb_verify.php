@@ -44,7 +44,7 @@ SOFTWARE.
 
 	if(isset($_POST['verify'])){
 
-		$id_to_update = mysqli_real_escape_string($conn, $_POST['status_id']);
+		$id_to_update = mysqli_real_escape_string($conn, $_POST['status_id']) ;
 
 		$sql_ver = "UPDATE application_janaki_bose_scholarship SET status='verified' WHERE ph_no='$id_to_update'";
 

@@ -33,7 +33,7 @@ SOFTWARE.
 		
 		// check Phone Number
 		if(empty($_POST['app_id'])){
-			$errors['app_id'] = 'Application ID is required';
+			$errors['app_id'] = 'Application ID is required' ;
 		} else{
 			$app_id = $_POST['app_id'];
 		}
